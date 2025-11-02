@@ -1,0 +1,4 @@
+#!/bin/sh
+# Update version.txt with current timestamp
+date +%s%3N > version.txt
+git add version.txt
